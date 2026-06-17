@@ -1,7 +1,26 @@
+:root {
+    --link-color: #8000ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body{
+    font-family: 'Poopins', sans-serif;
     background-color: chartreuse;
 }
 
+a {
+    color: var(--link-color);
+}
+
 h2{
-    color:azure;
+    color:#8000ff;
 }
