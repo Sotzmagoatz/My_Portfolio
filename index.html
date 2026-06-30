@@ -9,32 +9,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script type="text/javascript" src="script.js" defer></script>
+
 
     <title>My Portfolio</title>
 
 </head>
 
 <body>
-
 <!--navbar-->
 
     <nav>
-        <div class="left"> Alejandro Soto </div>
+        <div class="left"> Alejandro Soto</div>
         <div class="right">
-            <a href="https://github.com/Sotzmagoatz" target="_blank" rel="noopener no-referrer">
-                <i class="fa-brands fa-github"></i>
-                <span>Github</span>
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener no-referrer">
-                <i class="fa-brands fa-linkedin"></i>
-                <span>Linkedin</span>
-            </a>
-            <a href="mailto:alejandro.soto@example.com" rel="noopener">
-                <i class="fa-solid fa-envelope"></i>
-                <span>Email</span>
-            </a>
-             
+            <a href="#about-me">About Me |</a>     
+            <a href="#projects">Projects |</a>
+            <a href="#skills">Skills |</a>
+            <a href="contact.html">Contact</a>           
         </div>
+
+          <button id="theme-switch">
+            <i class="fa-solid fa-moon"></i>
+            <i class="fa-solid fa-sun"></i>
+           </button>
+        
     </nav>
 
     <main>
@@ -43,38 +41,64 @@
         <section id ="about-me">
             <div class="am-container">
                 <div class="am-text-container">
-                    <h2> About Me </h2>
-                    <p> Hi! I am Alejandro Soto also known as SoatzMaGoatz online. For many years i have been a digital artist and graphic designer. My goal for 2026 was to learn a new skill and have chosen to learn to code. This new experience has been dificult (JavaScrip, am i right?) but also very fun as well. Follow along this journey with me as i get better and better and eventually am able to blend my skillsets together and create something AMAZING!  </p>
+                    <h2> Hi! I am Alejandro Soto </h2>
+                    <p> I am also known as SoatzMaGoatz online. For many years i have been a digital artist and graphic designer. My goal for 2026 was to learn a new skill and have chosen to learn to code. This new experience has been dificult (JavaScrip, am i right?) but also very fun as well. Follow along this journey with me as i get better and better and eventually am able to blend my skillsets together and create something AMAZING!  </p>
                 </div>
-                <!-- <img src="" alt="" class="portrait"> -->
+                 <img src="images\Alex portrait.jpg" alt="Portrait photo of Alex" class="portrait"> 
             </div>
-
- <!--Section 2: Projects-->
-
         </section>
+
+<!--Section 2: Projects-->
+
         <section id="projects">
             <h2> Projects </h2>
-            <details class="projects">
-                <summary class="project-tittle">
-                    <h3>Quote Generator</h3>
-                </summary>
-                <p class="project description">(insert project description)</p>
+            <details class="project-1">
+                <summary>Quote Generator</summary>
+                  <p class="project description">This project was created to provide a random qutoe when user click on a buttom. The generator has been supplied quotes from villains across multiple anime. </p>
+                  <p>Project was created using HTMl, CSS, and JavaScript</p>
+                  <img src="C:\Users\Alex\Desktop\C.Projects\My_Portfolio\images\My_Random_Quote_Generator .jpg" alt="screen capture of quote generator in operation.">
+                  
             </details>
 
-<!--Section 3: Skills-->
-        </section>
-        <section id="skills">
-            <h2> Skills </h2>
-            <div id="skills-container">
-               <!-- <i class="fab fa-html5"></i> -->
-            </div>
+            <details class="project-2">
+                <summary> Random Message Generator</summary>
+                  <p class="project description">Project generates a random arrangement of works and phrases to create a funny statement. The assortment of words are pulled from three pools holding the words to be selected.</p>
+                  <p>Project was created using JavaScript</p>
+                  <img src="C:\Users\Alex\Desktop\C.Projects\My_Portfolio\images\My_Message_Generator scrn.jpg" alt="screen shot of code for message generator on github.com">
+            </details>
+            
         </section>
 
+<!--Section 3: Skills-->
+
+        <section id="skills">
+            <h2> Skills </h2>
+
+            <p>Learning using Codecademy I have learned how to work with HTML, CSS and have also learned JavaScript. Still growing and still improving. </p>
+
+            <div id="cells">
+                <div class="cells">
+                     <i class="fab fa-html5"></i> 
+                     <span>HTML</span>
+                </div>
+
+                <div class="cells">
+                     <i class="fa-brands fa-css3-alt"></i> 
+                     <span>CSS</span>
+                </div>
+
+                <div class="cells">
+                     <i class="fa-brands fa-square-js"></i> 
+                     <span>JavaScript</span>
+                </div>
+            
+            </div>
+        </section>
     </main>
 
     <footer></footer>
 
-    <script></script>
+<script type="javascript" src="script.js"></script>
 
 </body>
 </html>
